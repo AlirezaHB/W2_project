@@ -1,0 +1,83 @@
+.container {
+  width: 450px;
+  margin: 0 auto; /*yaeni az 2 taraf fanar*/
+}
+.row {
+    margin-top: 10px;
+    background-color: #ddd;
+}
+.row > *{ /*harchi too .row hast*/
+  /*outline :1px dashed black;*/
+  text-align: center;
+  color:black;
+  text-shadow: 1px 1px 3px #fff;/*bekhaim sheddat sefidi ziyad she che konim???*/
+/*code mohem jahat halle moshkele zloos va bad boy*/
+}
+
+.row:before,
+.row:after{
+  content:" ";
+  display:table;
+}
+.row:after{
+  clear:both;
+}
+/*-------------------------*/
+.host {
+  width: 100px;
+  height: 300px;
+  background-color: red;
+  float: left;
+}
+
+.host2 {
+  width:  150px;
+  height: 400px;
+  float: right;
+  margin-left: 10px;
+  background-color: yellow;
+}
+.guest {
+  width: 180px;
+  height: 180px;
+  margin-left:110px;
+  background-color: green;
+  
+}
+
+/*floor2*/
+.host_2 {
+  width: 100px;
+  height: 300px;
+  background-color: red;
+  float: left;
+}
+
+.host2_2 {
+  width:  150px;
+  height: 400px;
+  float: left;
+  margin-left: 10px;
+  background-color: yellow;
+}
+.guest_2 {
+  width: 180px;
+  height: 180px;
+  margin-left:269px; /*che konim az rast kollan be chasbe nakhayim dasti meghdar bedim??????????*/
+  background-color: green;
+  
+}
+/*floor3*/
+.host_3 {
+  width:  70px;
+  height: 400px;
+  float: left;
+  margin-right: 10px;
+  background-color: yellow;
+}
+.guest_3 {
+  width: 130px;
+  height: 130px;
+  margin-left:320px; /*che konim az rast kollan be chasbe nakhayim dasti meghdar bedim??????????*/
+  background-color: green;
+}
